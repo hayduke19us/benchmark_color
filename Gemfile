@@ -1,5 +1,8 @@
 source "http://rubygems.org"
 # Add dependencies required to use your gem here.
+#
+gem "colorize"
+
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
