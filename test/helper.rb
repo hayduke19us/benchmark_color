@@ -23,13 +23,14 @@ rescue Bundler::BundlerError => e
   $stderr.puts "Run `bundle install` to install missing gems"
   exit e.status_code
 end
-require 'minitest/unit'
+require 'minitest/autorun'
+require 'minitest/pride'
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'benchmark_color'
 
-class MiniTest::Unit::TestCase
+class MiniTest::Test
 end
 
-MiniTest::Unit.autorun
+MiniTest.autorun
