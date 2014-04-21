@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "benchmark_color"
   gem.homepage = "http://github.com/hayduke19us/benchmark_color"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A simple realtime benchmark for ruby --> in Color!}
+  gem.description = %Q{Customize the output with your own colors.}
   gem.email = "hayduke19us@gmail.com"
   gem.authors = ["Matthew Sullivan"]
   # dependencies defined in Gemfile
