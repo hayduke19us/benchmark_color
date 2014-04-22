@@ -11,20 +11,22 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Matthew Sullivan"]
-  s.date = "2014-04-21"
-  s.description = "TODO: longer description of your gem"
+  s.date = "2014-04-22"
+  s.description = "Customize the output with your own colors."
   s.email = "hayduke19us@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
+    "benchmark_color.gemspec",
     "lib/benchmark_color.rb",
     "test/helper.rb",
     "test/test_benchmark_color.rb"
@@ -32,7 +34,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/hayduke19us/benchmark_color"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "A simple realtime benchmark for ruby --> in Color!"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
